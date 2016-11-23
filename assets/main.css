@@ -1,0 +1,89 @@
+/* コンテンツ全体 */
+#container {
+  width: 850px;
+  margin: 0 auto;
+}
+
+/* ヘッダ */
+#header {
+  position: relative;
+  background-color: #f8f8ff;
+  margin: 20px 0px 0px 0px;
+  padding: 1em;
+  border: solid 0.5px;
+}
+
+#header h5 {
+  position: absolute;
+  top: -0.9em;
+  background-color: rgba(100,100,100,0.4);
+  padding: 0.25em 2em;
+  color: #fff;
+  transform: rotate(-4deg);
+}
+
+#header p {
+  padding: 20px 0px 0px 0px;
+  margin: 10px 0px -5px 0px;
+  color: #000000;
+}
+
+/* ツイートクリアボタン */
+#clear_button {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 15px 0px -5px 0px;
+  padding: 10px 30px;
+  background-color: #248;
+  color: #fff;
+  border-style: none;
+}
+
+#clear_button:hover {
+  background-color: #24d;
+  color: #fff;
+}
+
+#clear_button:active{
+  padding-top: 6px;
+  padding-bottom: 4px;
+  border: 1px solid #334c66;
+  background-color: #69c;
+  color: #e0ebf5;
+  -webkit-box-shadow: inset 0px 0px 8px #334c66;
+  -moz-box-shadow: inset 0px 0px 2px #3a6da0;
+  box-shadow: inset 0px 0px 2px #3a6da0;
+}
+
+/* ツイート表示部分 */
+.each_tweet {
+  padding: 15px 5px;
+  margin: 20px 0px 20px 0px;
+  border: solid 3px #3cb3e4;
+  position: relative;
+  border-radius: 3px;
+  background: #fff;
+  line-height: 24px;
+}
+
+.each_tweet:after,
+.each_tweet:before {
+  content: '';
+  position: absolute;
+  bottom: -7px;
+  background: #3cb3e4;
+  border: solid 2px #3cb3e4;
+  width: 25px;
+  height: 20px;
+  z-index: -1;
+}
+
+.each_tweet:after {
+  left: 2px;
+  transform: rotate(120deg);
+}
+
+.each_tweet:before {
+  right: 2px;
+  transform: rotate(60deg);
+}

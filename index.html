@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/vnd.microsoft.ico" />
+  <link rel="stylesheet" type="text/css" href="./main.css">
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="./action.js"></script>
+  <title>「刀剣乱舞」を含むツイートをストリーミング表示</title>
+</head>
+<body>
+<div id="container">
+  <div id="header">
+    <h5>Twitter Streaming API</h5>
+    <p>「刀剣乱舞」を含むツイートをストリーミング表示</p>
+  </div>
+  <input type="button" value="clear_tweets" id="clear_button">
+  <div id="tweets_area"></div>
+</div>
+</body>
+</html>
