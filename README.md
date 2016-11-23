@@ -1,6 +1,6 @@
-# Web application to show tweets stream on web browser using [Twitter Streaming API](https://dev.twitter.com/streaming/overview)
+# Web application to show tweets stream on web browser using Twitter Streaming API
 - Official description about Twitter Streaming API
-    - https://dev.twitter.com/streaming/public
+    - https://dev.twitter.com/streaming/overview
     - https://dev.twitter.com/streaming/overview/request-parameters
 
 # Screenshot
@@ -22,6 +22,7 @@
 - If you wanna clear tweets, push "clear_tweets" button
 
 # Note
+- Endpoint is [Public streams](https://dev.twitter.com/streaming/public)
 - Set [`track` parameter](https://dev.twitter.com/streaming/overview/request-parameters#track) to `刀剣乱舞` as default
     - `刀剣乱舞(ToukenRambu)` is a Japanese simulation game title, whose official page is [here](http://www.dmm.com/netgame/feature/tohken_html/=/navi=none/)
 - Routes implement is poor :)
