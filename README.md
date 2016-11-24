@@ -8,8 +8,8 @@
 
 # Required
 - [Node.js](https://nodejs.org/)
-- [socket.io package](https://www.npmjs.com/package/socket.io)
-- [twitter package](https://www.npmjs.com/package/twitter)
+- [socket.io package for Node.js](https://www.npmjs.com/package/socket.io)
+- [twitter package for Node.js](https://www.npmjs.com/package/twitter)
 
 # How to use
 
