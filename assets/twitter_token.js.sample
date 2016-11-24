@@ -1,6 +1,6 @@
 var twitter = require("twitter");
 
-var twitter_token = new twitter({
+var twitterToken = new twitter({
   consumer_key: 'YOUR_COMSUMER_KEY',
   consumer_secret: 'YOUR_CONSUMER_SECRET',
   access_token_key: 'YOUR_ACCESS_TOKEN_KEY',
