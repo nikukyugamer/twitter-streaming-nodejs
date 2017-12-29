@@ -1,5 +1,5 @@
-# Web application to show tweets stream on web browser using Twitter Streaming API
-- Official description about Twitter Streaming API
+# Show tweets stream on web browser
+- note: official documents of Twitter Streaming API are below
     - https://dev.twitter.com/streaming/overview
     - https://dev.twitter.com/streaming/overview/request-parameters
 
@@ -17,7 +17,7 @@
 # node app
 ```
 
-- Waiting for connection on port 11084 (default) such as `http://localhost:11084/`
+- Waiting for connection on port 11084 (default) such as `http://localhost:11084`
 - Access above by web browser
 - If you wanna clear tweets, push "clear_tweets" button
 
