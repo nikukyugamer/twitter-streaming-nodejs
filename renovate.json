@@ -1,5 +1,23 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
+    "config:base",
+    ":timezone(Asia/Tokyo)"
+  ],
+  "labels": [
+    "dependencies",
+    "renovate"
+  ],
+  "dependencyDashboard": true,
+  "pin": {
+    "automerge": true
+  },
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "^.*"
+      ],
+      "automerge": true
+    }
   ]
 }
